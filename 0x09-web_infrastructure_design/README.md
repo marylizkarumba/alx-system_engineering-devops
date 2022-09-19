@@ -22,7 +22,6 @@ to access your website.
 
 You must use:
 
-
 1 physical server
 
 1 web server (Nginx)
@@ -34,6 +33,8 @@ You must use:
 1 database (MySQL)
 
 1 domain name foobar.com configured with a www record that points to your server IP 8.8.8.8
+
+![WID](https://user-images.githubusercontent.com/99593138/191125507-19088d04-7d94-4095-9e1f-5b9c4c769bb4.jpg)
 
      1-distributed_web_infrastructure
 
@@ -53,6 +54,9 @@ You must add to 0-simple_web_stack:
 
 1 database (MySQL)
 
+![WID1](https://user-images.githubusercontent.com/99593138/191125994-6563ed42-7e8d-4e6a-9cba-799f298d3c07.jpg)
+
+
     2-secured_and_monitored_web_infrastructure
 
 On a whiteboard, design a three servers web infrastructure that host the website www.foobar.com, it must be secured, serve encrypted traffic and be monitored.
@@ -65,6 +69,9 @@ You must add to 1-distributed_web_infrastructure:
 
 3 monitoring clients (data collector for Sumologic or other monitoring services)
 
+![WID3](https://user-images.githubusercontent.com/99593138/191126029-9ac4e2a8-0fa1-4080-8698-f290e197edbc.jpg)
+
+
      3-scale_up
 
 You must add to 2-secured_and_monitored_web_infrastructure:
@@ -73,4 +80,8 @@ You must add to 2-secured_and_monitored_web_infrastructure:
 
 1 load-balancer (HAproxy) configured as cluster with the other one
 
-Split components (web server, application server, database) with their own server
+Split components (web server, application server, database) with their own server.
+
+![WID3](https://user-images.githubusercontent.com/99593138/191126064-579ff049-7275-4919-9a76-5e9735064c9e.jpg)
+
+
