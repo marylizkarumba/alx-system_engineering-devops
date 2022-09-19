@@ -41,7 +41,7 @@ On a whiteboard, design a three servers web infrastructure that host the website
 
 You must add to 0-simple_web_stack:
 
-     2 physical servers
+ 2 physical servers
 
 1 web server (Nginx)
 
@@ -53,19 +53,19 @@ You must add to 0-simple_web_stack:
 
 1 database (MySQL)
 
-2-secured_and_monitored_web_infrastructure
+    2-secured_and_monitored_web_infrastructure
 
 On a whiteboard, design a three servers web infrastructure that host the website www.foobar.com, it must be secured, serve encrypted traffic and be monitored.
 
 You must add to 1-distributed_web_infrastructure:
 
-     3 firewalls
+3 firewalls
 
 1 SSL certificate to serve www.foobar.com over HTTPS
 
 3 monitoring clients (data collector for Sumologic or other monitoring services)
 
-3-scale_up
+     3-scale_up
 
 You must add to 2-secured_and_monitored_web_infrastructure:
 
